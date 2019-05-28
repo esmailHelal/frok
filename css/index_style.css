@@ -1,0 +1,394 @@
+
+
+
+.test{
+    
+    background-color:transparent!important;
+    position: fixed;
+    width: 100% !important;
+    z-index: 2;
+    
+}
+.brand_logo {
+   
+    padding: 0px 10px;
+    width: 90px;
+   
+    height:70px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.test1:hover{
+    
+    color: red !important;
+}
+
+    
+.cover{
+    
+    background-position: center ;  
+    height: 650px;
+    background: transparent;
+    background: url(../../assignment5/images/images/cover.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.coverb{
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: rgba(236, 51, 55, 0.7);
+    color: #FFF;
+    
+    
+    
+}
+.cover_content {
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+.cover_title {
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+}
+ 
+
+.cover_cta {
+    margin-top: 15px;
+}
+.btn_inverse {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.btn {
+    padding: 10px 25px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+    
+    background-color: white;
+    color: green;
+    
+}
+.section_scroll{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    color: #ffffff;
+       width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 100%;
+     animation: Floatingx 2s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes Floatingx{
+    
+    0% {transform:translate(0px, 0px);}
+    50% {transform:translate(0px, 20px);}
+    100% {transform: translate(0px, 0px);   
+    }}
+    
+   .about  .section_title1{
+       margin-top: 80px;
+       margin-bottom: 10px;
+        font-size: 3me;
+        font-weight: 700;
+        text-transform: capitalize;
+        
+    } 
+
+
+
+.section_subtitle2{
+       font-size: 20px;
+    font-weight: 300;
+    color: #777777;
+}
+
+
+.profile_title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+
+
+.social {
+    position: relative;
+    overflow-y: hidden;
+    margin: 10px 0px;
+    padding-top: 25px;
+    border-top: 1px solid #fafafa;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.social_ico li {
+   float: left;
+    width: 40px;
+    height: 40px;
+     margin-right: 10px;
+    margin-bottom: 15px;
+}
+.social_ico li a  {
+    display: block;
+  width: 100%;
+    height: 100%;
+   text-align: center;
+    border: 1px solid #999999;
+    color: #777777;
+    
+}
+
+.social_ico li a i {
+   
+  margin-top: 8px;
+    font-size: 1.4em;
+}
+
+
+.social_ico li a:hover {
+   background-color: red;
+    color: white;
+    
+}
+.profile_title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.progress_wrap {
+    margin-top: 24px;
+}
+.progress_title {
+   
+    color: #777777;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.muted {
+    color: #777777;
+}
+.progress-bar{
+    
+    background-color: red;
+    
+    
+}
+.progress_wrap {
+    margin-top: 24px;
+}
+.progress {
+    height: 12px;
+    line-height: 12px;
+    margin-bottom: 20px;
+}
+.pull-right{
+    float: right;
+}
+.bnt5{ 
+    padding: 10px 25px;
+    border-radius: 0px;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1.1em; 
+    background-color: #ec3237;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.bnt5 a{
+    color: white;
+    text-decoration: none;
+}
+
+.light_background {
+    padding-top: 80px;
+    background-color: #f5f5f5;
+}
+
+.service_wrap {
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+}
+.service_icon {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #777777;
+    text-align: center;
+    padding-top: 8px;
+}
+.service_icon i {
+    font-size: 1.2em;
+    
+}
+
+.service_wrap:hover .service_title{
+	color: #ec3237;
+}
+
+.service_wrap:hover .service_icon{
+	background-color: #ec3237;
+	color: #ffffff;
+}
+.projects1{
+    padding: 100px 0px;
+   background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: transparent;
+    background: url(../../assignment5/images/images/project-counter.jpg);
+}
+.counter_wrap {
+    
+    padding: 15px 0px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.counter_icon {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: #ec3237;
+    text-align: center;
+}
+.counter {
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+.counter_title {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ec3237;
+}
+
+.esmail{
+    
+    margin-top: 50px;
+    margin-left: 400px;
+    
+    
+    
+}
+
+.text1 a{
+    
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    color: #444444;
+    border: 2px solid #dddddd;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.text1 a:hover{
+    
+    border: 2px solid red;
+    
+    color: red;
+}
+
+ul li .active  {
+    background-color: red  !important;
+    color: #ffffff !important;
+    border: 2px solid #ec3237;
+}
+
+
+
+.portfolio_prev {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    top: 58%;
+    left: 47%;
+   transform: translate3d( -50%, 0%, 0 );
+}
+.portfolio_prev i {
+    
+    
+    padding-top: 8px;
+    
+    
+}
+.portfolio_info a i{
+    
+    
+    color:#ffffff;
+    
+    
+}
+.portfolio_info h4 {
+    
+    margin-top: 30px;
+    
+}
+.portfolio_item:hover .portfolio_prev{
+	background-color: #ec3237;
+	color: #ffffff;
+}
+
+.portfolio_item {
+    
+    
+    margin-bottom: 30px;
+}
+
+.esmail1{
+    
+    padding: 100px 0px;
+   background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: transparent;
+    background: url(../../assignment5/images/images/project-counter.jpg);
+}
+.fixed-top {
+  position: fixed;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: black !important;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+}
+   
